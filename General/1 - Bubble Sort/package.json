@@ -1,0 +1,22 @@
+{
+  "name": "bubble-sort",
+  "version": "1.0.0",
+  "description": "Implementation of a simple bubble sort algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchainaf/oplab-challenge.git"
+  },
+  "author": "Thaina Damasio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tchainaf/oplab-challenge/issues"
+  },
+  "homepage": "https://github.com/tchainaf/oplab-challenge#readme",
+  "devDependencies": {
+    "jest": "26.6.3"
+  }
+}
