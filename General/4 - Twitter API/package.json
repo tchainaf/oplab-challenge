@@ -1,0 +1,25 @@
+{
+  "name": "twitter-api",
+  "version": "1.0.0",
+  "description": "Search the last 10 tweets containing a specific word",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchainaf/oplab-challenge.git"
+  },
+  "author": "Thaina Damasio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tchainaf/oplab-challenge/issues"
+  },
+  "homepage": "https://github.com/tchainaf/oplab-challenge#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "prompt-sync": "^4.2.0",
+    "request": "^2.88.2"
+  }
+}
