@@ -7,7 +7,7 @@ Implementation of a simple bubble sort algorithm using [Node.Js](https://nodejs.
 1. Clone repository
 ```sh
 git clone https://github.com/tchainaf/oplab-challenge.git
-cd .\oplab-challenge\general\1 - Bubble Sort
+cd "./oplab-challenge/General/1 - Bubble Sort"
 ```
 2. Install dependencies
 ```sh

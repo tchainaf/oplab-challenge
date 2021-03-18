@@ -1,6 +1,6 @@
 require('dotenv').config();
 var request = require('request');
-var prompt = require('prompt-sync')({sigint: true});
+var prompt = require('prompt-sync')({ sigint: true });
 
 function getTweets(searchedWord) {
     var url = 'https://api.twitter.com/2/tweets/search/recent?query=' + searchedWord + '&user.fields=username&tweet.fields=created_at,lang&max_results=10&expansions=author_id';
@@ -16,7 +16,7 @@ function getTweets(searchedWord) {
     request(options, function (error, resp) {
         if (error) throw new Error(error);
         var resp = JSON.parse(resp.body);
-        if(resp.data == null) {
+        if (resp.data == null) {
             console.log(resp);
             return;
         }
@@ -28,7 +28,7 @@ function getTweets(searchedWord) {
             item.author_username = user.username;
         });
 
-        console.log('These are the last '+ resp.meta.result_count + ' tweets containing the word "' + searchedWord + '":')
+        console.log('These are the last ' + resp.meta.result_count + ' tweets containing the word "' + searchedWord + '":')
         console.log(resp.data);
         console.log('If you want to search another word, run the command "npm start" again.')
     });

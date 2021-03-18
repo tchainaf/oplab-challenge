@@ -27,4 +27,4 @@ npm start
 
 ### References
 
-[Twitter API v2 endpoints documentation](https://documenter.getpostman.com/view/9956214/T1LMiT5U#acd41db7-05bc-4359-be63-dd5249dfef32)
+- [Twitter API v2 endpoints documentation](https://documenter.getpostman.com/view/9956214/T1LMiT5U#acd41db7-05bc-4359-be63-dd5249dfef32)

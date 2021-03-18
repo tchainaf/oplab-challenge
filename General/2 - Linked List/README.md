@@ -7,7 +7,7 @@ Implementation of a singly linked list algorithm using [Node.Js](https://nodejs.
 1. Clone repository
 ```sh
 git clone https://github.com/tchainaf/oplab-challenge.git
-cd "./oplab-challenge/general/2 - Linked List"
+cd "./oplab-challenge/General/2 - Linked List"
 ```
 2. Install dependencies
 ```sh
@@ -20,4 +20,4 @@ npm test
 
 ### References
 
-[Data Structure and Algorithms - Linked List](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm)
+- [Data Structure and Algorithms - Linked List](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm)

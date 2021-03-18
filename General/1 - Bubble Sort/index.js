@@ -8,7 +8,7 @@ module.exports = function bubbleSort(array) {
 				repeat = true;
 			}
 		})
-	} while(repeat);
-	
+	} while (repeat);
+
 	return array;
 }
