@@ -22,3 +22,37 @@ The diagram above was designed using [Lucidchart](http://lucidchart.com/) and th
 
 3. Now that you have imagined the ER diagram, **how** would you build _Instagram_ from scratch?
 
+#### Plan and Design
+
+- Analyze requirements and data flow
+- Determine the target platform and hardware
+- Determine the technologies, frameworks and methodologies to be used
+- Select development team
+- Design software macro architecture
+- Design detailed front-end and back-end architectures
+- Pricing necessary infrastructure and tools
+- Prototype frontend screens
+
+
+#### Develop and Test
+
+- Backend
+  - Implement database structure
+  - Develop database business rules
+  - Develop the API
+  - Perform unit tests
+  - Refactor the code
+
+- Frontend
+  - Develop the application
+  - Perform unit tests
+  - Refactor the code
+
+- Perform integration tests
+
+
+#### Deploy and Maintain
+
+- Deploy the application to the target platforms
+- Correct bugs found by the user
+- Develop and implement new features
