@@ -29,7 +29,7 @@ The diagram above was designed using [Lucidchart](http://lucidchart.com/) and th
 - Determine the technologies, frameworks and methodologies to be used
 - Select development team
 - Design software macro architecture
-- Design detailed front-end and back-end architectures
+- Design detailed frontend and backend architectures
 - Pricing necessary infrastructure and tools
 - Prototype frontend screens
 

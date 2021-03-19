@@ -20,4 +20,4 @@ npm test
 
 ### References
 
-- [Data Structure and Algorithms - Linked List](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm)
+- [Data Structure and Algorithms - Linked List - Tutorialspoint](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm)

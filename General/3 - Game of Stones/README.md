@@ -4,7 +4,8 @@ Implementation of game of stones challenge solution using [C#](https://docs.micr
 
 ### How To
 
-1. Test it
+1. Test it! 
+
 Enter this [link](https://replit.com/@tchainaf/GameOfStones) and follow the console instructions.
 
 
