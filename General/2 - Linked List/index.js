@@ -25,11 +25,11 @@ class LinkedList {
             return;
         }
 
-        let nextNode = this.headNode;
-        while (nextNode.next != null)
-            nextNode = nextNode.next;
+        let lastNode = this.headNode;
+        while (lastNode.next != null)
+            lastNode = lastNode.next;
 
-        nextNode.next = newNode;
+        lastNode.next = newNode;
     }
 
     deleteFirst() {
@@ -43,27 +43,24 @@ class LinkedList {
     }
 
     deleteLast() {
-        let retValue = null;
-
         if (!this.headNode)
-            return retValue;
+            return null;
         if (!this.headNode.next) {
-            retValue = this.headNode.data;
+            let retValue = this.headNode.data;
             this.headNode = null;
             return retValue;
         }
 
         let previousNode = this.headNode;
-        let nextNode = this.headNode.next;
-        while (nextNode.next != null) {
-            previousNode = nextNode;
-            nextNode = nextNode.next;
+        let lastNode = this.headNode.next;
+        
+        while (lastNode.next != null) {
+            previousNode = lastNode;
+            lastNode = lastNode.next;
         }
 
         previousNode.next = null;
-        retValue = nextNode.data;
-
-        return retValue;
+        return lastNode.data;
     }
 
     showList() {
@@ -89,6 +86,7 @@ class LinkedList {
             nextNode = nextNode.next;
             count++;
         }
+
         return null;
     }
 }

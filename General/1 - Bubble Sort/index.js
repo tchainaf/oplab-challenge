@@ -1,4 +1,5 @@
 module.exports = function bubbleSort(array) {
+	let repeat;
 	do {
 		repeat = false;
 		array.forEach((item, i) => {
